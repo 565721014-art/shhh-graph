@@ -1,0 +1,5 @@
+interface:
+  display_name: "Shhh Graph 科研图形升级"
+  short_description: "强制连接OriginPro后执行科研图形审查升级与出版导出"
+  brand_color: "#1F918D"
+  default_prompt: "Use $shhh-graph to connect to OriginPro first, audit this scientific figure, and create the upgraded publication-ready chart."

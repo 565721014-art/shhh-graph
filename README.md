@@ -1,0 +1,18 @@
+# shhh-graph
+
+A Codex skill for evidence-based scientific figure upgrades through a mandatory live OriginPro connection.
+
+## What makes it strict
+
+Every plotting task begins with `scripts/origin_gate.py`. The skill continues only after OriginPro responds through COM and completes a LabTalk handshake. Python-only fallback is deliberately disallowed.
+
+## Requirements
+
+- Windows
+- A locally installed and registered OriginPro
+- Python 3.10+
+- `originpro>=1.1.15`
+
+Install the repository as a Codex skill or copy it to `%USERPROFILE%\.codex\skills\shhh-graph`.
+
+The skill includes a 28-case upgrade matrix, evidence-based chart-selection rules, and the user's SCI technology-future palette.
